@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags for Character Encoding and Responsive Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaechi Philip Ekaba | Personal Website</title>
+    
+    <!-- Link to Custom CSS for Styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome for Icons (Navigation, Skills, Social Media) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section: Contains Logo and Navigation Menu -->
+    <header id="header">
+        <nav class="container">
+            <!-- Website Logo / Name -->
+            <div class="logo">Amaechi Philip Ekaba</div>
+            
+            <!-- Desktop Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle Button (Visible on small screens) -->
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section: Introduction and Call to Action -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Amaechi Philip Ekaba</span></h1>
+                    <h2>Data Analyst & Full-Stack Developer</h2>
+                    <p>I clean, analyze, and visualize data to tell compelling stories, and I build lightweight web applications to solve real-world problems.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Featured Portrait Image -->
+                <div class="hero-image">
+                    <img src="assets/images/philip-portrait.jpg" alt="Amaechi Philip Ekaba" id="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section: Detailed Professional Background -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>Data Analyst with credentials from Google and IBM, complemented by junior full-stack web development skills. Expertise in Python, SQL, and R for data cleaning, analysis, and visualization, alongside experience in creating dashboards and lightweight web applications. Proficient in Excel, Power BI, Tableau, and IBM Cognos, with familiarity in Git/GitHub, Jupyter, REST APIs, and web scraping. Currently pursuing a B.Sc. in Computer Science at University of the People.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section: Categorized Grid of Technical Proficiencies -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <!-- Data & Programming Skills -->
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming & Data</h3>
+                        <ul>
+                            <li>Python (Pandas, NumPy, SciPy, scikit-learn)</li>
+                            <li>R (tidyverse, dplyr, ggplot2)</li>
+                            <li>SQL (Joins, Views, Transactions)</li>
+                        </ul>
+                    </div>
+                    <!-- Data Visualization Skills -->
+                    <div class="skill-card">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Visualization</h3>
+                        <ul>
+                            <li>Power BI, Tableau, Looker Studio</li>
+                            <li>IBM Cognos Analytics</li>
+                            <li>Matplotlib, Seaborn, Plotly</li>
+                        </ul>
+                    </div>
+                    <!-- Data Operations & Methodology -->
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Ops</h3>
+                        <ul>
+                            <li>Data Cleaning & EDA</li>
+                            <li>ETL & Predictive Modeling</li>
+                            <li>Data Storytelling</li>
+                        </ul>
+                    </div>
+                    <!-- Web Development Technologies -->
+                    <div class="skill-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML, CSS, Bootstrap</li>
+                            <li>NodeJS, WordPress</li>
+                            <li>Next.js & PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section: Showcase of Key Portfolio Items -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Key Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card: NovaxFolio -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>NovaxFolio</h3>
+                            <p>Full-stack Portfolio CMS with secure admin dashboard and CRUD capabilities. Built with Next.js, Node.js, and PostgreSQL.</p>
+                            <a href="https://novaxfolio.vercel.app/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project Card: SmartQM -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Smart Queue Manager (SmartQM)</h3>
+                            <p>AI-driven digital queue management system using real-time monitoring and SMS notifications. Built with Next.js and Prisma.</p>
+                            <a href="https://fhinovaxsmartqm.vercel.app/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project Card: IBM Capstone -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>IBM Data Analyst Capstone</h3>
+                            <p>Python/SQL workflow to clean and analyze multi-source data with interactive IBM Cognos dashboards.</p>
+                        </div>
+                    </div>
+                    <!-- Project Card: Fhil Connects -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Fhil Connects Website</h3>
+                            <p>Official WordPress website for a computer training center, featuring course listings and SEO optimization.</p>
+                            <a href="https://philbi.best" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section: Visual Showcase using Personal Photos -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/images/philip-selfie.jpg" alt="Amaechi Philip Ekaba Selfie">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/philip-outdoors.jpg" alt="Amaechi Philip Ekaba Outdoors">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/philip-working.jpg" alt="Amaechi Philip Ekaba at Work">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/philip-portrait.jpg" alt="Amaechi Philip Ekaba Portrait">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/friend-1.jpg" alt="Amaechi Philip Ekaba with Friend">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section: Timeline of Professional and Academic History -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title">Work & Education</h2>
+                <div class="timeline">
+                    <!-- Work Experience Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Founder & Lead Instructor</h3>
+                            <p>Fhinovax Multitech Solutions Ltd, Makurdi, Benue State</p>
+                            <ul>
+                                <li>Founded tech training center for digital literacy, data analysis, and web development.</li>
+                                <li>Delivered hands-on courses in Excel, SQL, Python, PowerBI, and WordPress.</li>
+                                <li>Developed dashboards and websites tailored to local contexts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Education Background Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Education</div>
+                        <div class="timeline-content">
+                            <h3>B.Sc. Computer Science (Ongoing)</h3>
+                            <p>University of the People (Expected 2029)</p>
+                            <h3>National Technical Certificate</h3>
+                            <p>Federal Science & Technical College Orozo (2008)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section: Grid of Professional Credentials -->
+        <section id="certifications" class="cert-section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">IBM Data Analyst Professional Certificate</div>
+                    <div class="cert-card">Google Data Analytics Professional Certificate</div>
+                    <div class="cert-card">Data Analysis and Visualization Foundations</div>
+                    <div class="cert-card">IBM Data Science Professional (8/12 courses)</div>
+                    <div class="cert-card">Fundamentals of Digital Marketing - Google</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section: Personal Interests Display -->
+        <section id="hobbies" class="hobbies-section">
+            <div class="container">
+                <h2 class="section-title">Interests & Hobbies</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-item"><i class="fas fa-chart-line"></i> Data visualization challenges</div>
+                    <div class="hobby-item"><i class="fas fa-laptop-code"></i> Building personal web projects & apps</div>
+                    <div class="hobby-item"><i class="fab fa-github"></i> Open-source contributions</div>
+                    <div class="hobby-item"><i class="fas fa-puzzle-piece"></i> Logic puzzle solving</div>
+                    <div class="hobby-item"><i class="fas fa-blog"></i> Blogging & writing about tech/data</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section: Social Media Links and Contact Details -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>philipdaniel.philip@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+234 816 854 8263</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <p>Makurdi, Benue State, Nigeria</p>
+                    </div>
+                    <!-- Social Media Icon Links -->
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/amphildanny" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/philbi" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://portfolio.philbi.best" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section: Copyright Information -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Amaechi Philip Ekaba. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to Custom JavaScript for Interactivity -->
+    <script src="js/script.js"></script>
+</body>
+</html>
